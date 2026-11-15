@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dial — Turn down your screen time</title>
+<meta name="description" content="Dial helps you reduce your screen time for the long run: track your history, earn milestones, and compete with friends in screen time leagues.">
+<style>
+  :root { --ink:#16181d; --muted:#5b6170; --bg:#fbfaf7; --card:#ffffff; --line:#e7e4dd; --accent:#e4572e; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Arial,sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; }
+  .wrap { max-width:880px; margin:0 auto; padding:0 24px; }
+  header { padding:28px 0; display:flex; justify-content:space-between; align-items:center; }
+  .logo { font-weight:700; font-size:22px; letter-spacing:-0.02em; display:flex; align-items:center; gap:10px; }
+  .dial { width:26px; height:26px; border-radius:50%; border:3px solid var(--ink); position:relative; }
+  .dial::after { content:""; position:absolute; width:3px; height:10px; background:var(--accent); left:50%; top:2px; transform-origin:50% 100%; transform:translateX(-50%) rotate(-40deg); border-radius:2px; }
+  nav a { color:var(--muted); text-decoration:none; font-size:15px; }
+  .hero { padding:56px 0 40px; }
+  h1 { font-size:clamp(36px,6vw,58px); line-height:1.05; letter-spacing:-0.03em; margin:0 0 18px; }
+  h1 em { font-style:normal; color:var(--accent); }
+  .lede { font-size:20px; color:var(--muted); max-width:620px; margin:0 0 28px; }
+  .badge { display:inline-block; font-size:14px; padding:8px 14px; border:1px solid var(--line); border-radius:999px; background:var(--card); color:var(--muted); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; padding:24px 0 56px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:22px; }
+  .card h2 { font-size:18px; margin:0 0 8px; letter-spacing:-0.01em; }
+  .card p { margin:0; color:var(--muted); font-size:15px; }
+  .feature { border-color:var(--accent); }
+  footer { border-top:1px solid var(--line); padding:24px 0 40px; color:var(--muted); font-size:14px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; }
+  footer a { color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo"><span class="dial" aria-hidden="true"></span>Dial</div>
+    <nav><a href="privacy.html">Privacy</a></nav>
+  </header>
+
+  <section class="hero">
+    <h1>Turn down your screen time. <em>For good.</em></h1>
+    <p class="lede">Dial is an iPhone app built to help you use your phone less, and keep it that way. Track your progress over time, see what actually works for you, and compete with friends to stay on track.</p>
+    <span class="badge">Coming soon to iPhone</span>
+  </section>
+
+  <section class="grid">
+    <div class="card feature">
+      <h2>Screen time leagues</h2>
+      <p>Join a public league or start a private one with friends. Face off in weekly one-on-one matchups over a season, earning points for using your phone less.</p>
+    </div>
+    <div class="card">
+      <h2>Your history, all in one place</h2>
+      <p>See your daily and weekly screen time, overall and by category, and how it changes over time.</p>
+    </div>
+    <div class="card">
+      <h2>Milestones worth chasing</h2>
+      <p>Dial recognizes your personal bests, like your lowest screen time day of the year, so progress feels like progress.</p>
+    </div>
+    <div class="card">
+      <h2>Levers that show their impact</h2>
+      <p>Turn on tools like app limits and grayscale, see how each one is expected to change your screen time, and track the real effect against your own history.</p>
+    </div>
+    <div class="card">
+      <h2>Better with friends</h2>
+      <p>Add friends and share your milestones and progress, only with the people you choose.</p>
+    </div>
+  </section>
+
+  <footer>
+    <span>&copy; 2026 Dial</span>
+    <span><a href="privacy.html">Privacy Policy</a> &middot; Contact: <a href="mailto:cmcclatchey21@gmail.com">cmcclatchey21@gmail.com</a></span>
+  </footer>
+</div>
+</body>
+</html>
